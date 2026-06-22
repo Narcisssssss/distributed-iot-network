@@ -28,12 +28,15 @@ masina - eventual esp diferit
 - senzor temperatura
 - ventilator
 
-## esp3-camera 3
--senzor temperatura performant 
+## esp3 - senzor miscare cu lanterna
 
-## esp3 - masina
-- control de pe joystick?
-- matrice leduri?
+## esp4 - masina
+- 3 senzori distanta fata
+- 1 senzor distanta stanga
+- 1 senzor distanta dreapta
+Creeaza o harta a locului in 
+
+
 
   
 
