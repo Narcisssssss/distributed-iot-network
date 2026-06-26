@@ -1,32 +1,20 @@
-## esp32 principal - monitorizeaza tot
-
-
-camera 1  
-- afisare temperatura
-- buton pornire alarma + leduri
-- afisare temperatura camera 2 + ventilator pornit/oprit
-
-camera 2  
-- afisare temperatura
-- afisare ventilator pornit/oprit
-- afisare temperatura camera 2 + ventilator pornit/oprit
-
-masina - eventual esp diferit
--control joystick? 
--afisare pe matrice leduri?
--buzzer cand se apropie de obstacol?
-
-
-
-
-## esp1-camera 1
+## CAMERA 1 - ESP32-WROOM-32D
 - senzor temperatura
-- buzzer
-- leduri pentru alarma
+- ventilator:  
+      - 28 grade - treapta 1  
+      - 29 grade - treapta 2  
+      - 30 grade - treapta 3  
+- transmite date catre esp principal care contine:  
+      - buton afisare temperatura/umiditate  
+      - buton pornire ventilator in treapta 1/2/3  
+      - led verde pentru temperaturi normale  
+      - led rosu pentru temperaturi ridicate  
+  
 
 ## esp2-camera 2
 - senzor temperatura
-- ventilator
+- buzzer
+- leduri
 
 ## esp3 - senzor miscare cu lanterna
 
